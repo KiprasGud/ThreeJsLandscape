@@ -2,6 +2,9 @@
 
 A lightweight web application built with Three.js that loads a 3D model, plays a smooth cinematic intro camera animation, and transitions into interactive first-person look controls.
 
+<div align="center">
+<img width="852" height="464" alt="LandScape-ezgif com-optimize" src="https://github.com/user-attachments/assets/b60c79ef-275a-47f6-9e72-9cd428ecbbe1" />
+</div>
 # Features
 Model Loading: Supports compressed GLTF/GLB models using the DRACO loader for optimal performance.
 
@@ -26,10 +29,4 @@ Run this command in your terminal to open a local server at localhost:8080
 ```
 npm run dev
 ```
-
-# Debug interface
-<img src="./static/debug.jpg" width="100%"/>
-You can enable a debug interface by getting the contents of "debug.js" file and place it in the end of the main file. This will give you some interface to change things like colors and light position, which can be very useful when you change the model to something else.
-
-
-Original boilerplate by <h4>by Anderson Mancini</h4>
+Original boilerplate by Anderson Mancini
